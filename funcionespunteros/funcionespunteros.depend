@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1553956569 source:c:\users\alumno\desktop\funcionespunteros\funcionespuntero.c
+	<stdio.h>
+
+1553956544 source:c:\users\alumno\desktop\funcionespunteros\main.c
+	<stdio.h>
+	<stdlib.h>
+
