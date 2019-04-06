@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1554558052 source:c:\users\alumno\desktop\repasoarray\axelutn.c
+	<stdio.h>
+	<stdint.h>
+
+1554557329 source:c:\users\alumno\desktop\repasoarray\main.c
+	<stdio.h>
+	<stdlib.h>
+
