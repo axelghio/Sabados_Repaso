@@ -101,6 +101,7 @@ char getChar(char* mensaje)
     scanf("%c",&aux);
     return aux;
 }
+<<<<<<< HEAD
 int dameEdad(int *edad, char *mensaje)
 {
     int sePudo=0;
@@ -144,3 +145,48 @@ int dameEdadTres(int *edad, char *mensaje)
     }
     return sePudo;
 }
+=======
+int dameEdad(int *edad, char *mensaje)
+{
+    int sePudo=0;
+    int aux;
+    printf(mensaje);
+    sePudo=scanf("%d", &aux);
+    if(sePudo==1)
+    {
+        *edad=aux;
+    }
+    return sePudo;
+}
+int dameEdadDos(int *edad, char *mensaje)
+{
+    int sePudo=1;
+    char cadenaCargada[20];
+    printf(mensaje);
+    scanf("%s", cadenaCargada);
+
+    //*edad=atoi(cadenaCargada);//atoi si se puede transforma una cadena en entero.
+
+    return sePudo;
+}
+int dameEdadTres(int *edad, char *mensaje)
+{
+    int sePudo=0;
+    int aux;
+    char cadenaCargada[20];
+    printf(mensaje);
+    scanf("%s", cadenaCargada);
+    for(int i = 0; i<20; i++)
+    {
+        if(cadenaCargada[i] < '0' || cadenaCargada[i]> '9')
+        {
+            sePudo = 0;
+        }
+        else
+        {
+            sePudo = 1;
+        }
+    }
+    return sePudo;
+}
+>>>>>>> 9776b7ab85375e7940ee74eb6f152010b6ffb56d

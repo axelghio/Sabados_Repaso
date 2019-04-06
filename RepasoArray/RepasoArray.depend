@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # depslib dependency file v1.0
 1554558052 source:c:\users\alumno\desktop\repasoarray\axelutn.c
 	<stdio.h>
@@ -11,3 +12,14 @@
 	<stdio.h>
 	<stdint.h>
 
+=======
+# depslib dependency file v1.0
+1554558052 source:c:\users\alumno\desktop\repasoarray\axelutn.c
+	<stdio.h>
+	<stdint.h>
+
+1554557329 source:c:\users\alumno\desktop\repasoarray\main.c
+	<stdio.h>
+	<stdlib.h>
+
+>>>>>>> 9776b7ab85375e7940ee74eb6f152010b6ffb56d

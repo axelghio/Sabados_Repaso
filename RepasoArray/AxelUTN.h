@@ -61,6 +61,7 @@ float getFloat(char *mensaje);
  * \param texto char        CHAR A PEDIR.
  * \return char             DEVUELVE CHAR.
  */
+<<<<<<< HEAD
 char getChar(char *mensaje);
 
 /** \brief                  PIDE UNA EDAD VERIFICA QUE NO SEAN LETRAS.
@@ -82,3 +83,26 @@ int dameEdad(int *edad, char *mensaje);
 int dameEdadDos(int *edad, char *mensaje);
 
 int dameEdadTres(int *edad, char *mensaje);
+=======
+char getChar(char *mensaje);
+
+/** \brief                  PIDE UNA EDAD VERIFICA QUE NO SEAN LETRAS.
+ *
+ * \param edad int*         PUNTERO A EDAD;
+ * \param mensaje char*     PUNTERO A MENSAJE A MOSTRAR.
+ * \return int              DEVUELVE SI SE PUDO.
+ *
+ */
+int dameEdad(int *edad, char *mensaje);
+
+/** \brief
+ *
+ * \param edad int*
+ * \param mensaje char*
+ * \return int
+ *
+ */
+int dameEdadDos(int *edad, char *mensaje);
+
+int dameEdadTres(int *edad, char *mensaje);
+>>>>>>> 9776b7ab85375e7940ee74eb6f152010b6ffb56d
